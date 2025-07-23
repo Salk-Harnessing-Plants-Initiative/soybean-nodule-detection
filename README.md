@@ -47,7 +47,7 @@ soybean-nodule-detection/
 ├── requirements.txt
 ```
 
-## Running the pipeline with a shell file (RootXplorer_pipeline.sh)
+## Running the pipeline with a shell file (pipeline.sh)
 1. **create the environment**:
 
   In terminal, navigate to your root folder and type:
