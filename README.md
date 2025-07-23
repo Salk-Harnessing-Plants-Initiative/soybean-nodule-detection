@@ -35,14 +35,11 @@ soybean-nodule-detection/
 │   │   │   │   ├── frame image (e.g., 1.png)
 │   │   │   ├── plant and experiment mapping (e.g., acc_barcodes_cylinders.csv)
 ├── src/
-│   ├── pipeline_analysis_v2.py
-│   ├── pipeline_crop_segment_v2.py
-│   ├── RootXplorer_pipeline.sh
+│   ├── pipeline_get_traits.py
+│   ├── pipeline_predict.py
+│   ├── pipeline.sh
 ├── model/
-│   ├── arabidopsis_model.pth
-│   ├── rice_seminal_model.pth
-│   ├── soybean_sorghum_model.pth
-│   ├── label_class_dict_lr.csv
+│   ├── best_70img_4batch_512_64.pt
 ├── Dockerfile
 ├── environment.yml
 ├── LICENSE
