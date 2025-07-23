@@ -1,0 +1,15 @@
+# Core Python version (can be specified separately if needed)
+# python==3.8
+
+
+# General packages
+matplotlib
+pandas
+seaborn
+ipywidgets
+rich
+scikit-learn
+ultralytics
+opencv-python-headless
+# libgl1 # opencv-python-headless still requires libGL.so.1 at runtime for some operations — especially when dealing with image display or certain decoding functions.
+labelme2yolo
