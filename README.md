@@ -30,10 +30,6 @@ soybean-nodule-detection/
 │   ├── label_2 (e.g., Root_PI_56789-1.json)
 │   ├── image_... 
 │   ├── label_...
-│   │   ├── species (e.g., Arabidopsis)/
-│   │   │   ├── plant name (e.g., ZHOKUWVOIZ)/
-│   │   │   │   ├── frame image (e.g., 1.png)
-│   │   │   ├── plant and experiment mapping (e.g., acc_barcodes_cylinders.csv)
 ├── src/
 │   ├── pipeline_get_traits.py
 │   ├── pipeline_predict.py
